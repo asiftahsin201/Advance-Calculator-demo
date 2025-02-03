@@ -1,5 +1,5 @@
-# Advanced Calculator
-
+### Advanced Calculator
+```bash
 import tkinter as tk
 import math
 
@@ -59,6 +59,7 @@ def key_press(event):
         input_var.set("")
     elif event.char == "h" or event.char == "H":
         history_list.delete(0, tk.END)
+```
 
 expression = ""
 root = tk.Tk()
